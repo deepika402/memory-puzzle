@@ -41,7 +41,7 @@ ALLSHAPES = (DONUT, SQUARE, DIAMOND, LINES, OVAL)
 assert len(ALLCOLORS) * len(ALLSHAPES) * 2 >= BOARDWIDTH * BOARDHEIGHT, "Board is too big for the number of shapes/colors defined."
 
 def main():
-    user = str(input("Enter the player name:"))
+    user = str(input("Enter the player Name:"))
     global FPSCLOCK, DISPLAYSURF
     pygame.init()
     FPSCLOCK = pygame.time.Clock()
